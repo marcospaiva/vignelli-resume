@@ -1,14 +1,22 @@
 {
-  "name": "cv-beautifier-server",
+  "name": "vignelli-resume",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "start": "nodemon server.js"
   },
-  "author": "@marcos_paiva",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcospaiva/vignelli-resume.git"
+  },
+  "author": "@marcospaiva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcospaiva/vignelli-resume/issues"
+  },
+  "homepage": "https://github.com/marcospaiva/vignelli-resume#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
