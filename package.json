@@ -1,0 +1,29 @@
+{
+  "name": "vignelli-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcospaiva/vignelli-resume.git"
+  },
+  "author": "@marcospaiva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcospaiva/vignelli-resume/issues"
+  },
+  "homepage": "https://github.com/marcospaiva/vignelli-resume#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "linkedin-profile-scraper": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
