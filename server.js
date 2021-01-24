@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const { LinkedInProfileScraper } = require('linkedin-profile-scraper');
-const getUser = require('./routes')
 
 app.use(cors());
 
