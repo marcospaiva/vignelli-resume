@@ -1,5 +1,8 @@
-function HomePage() {
-  return <div>Welcome to Next.js!</div>
-}
+import Layout from './components/layout'
 
-export default HomePage
+export default function HomePage() {
+    return (
+        <Layout title="Welcome to vignelli resume">
+        </Layout>
+    )
+}
