@@ -1,0 +1,10 @@
+.head {
+    font-size: 20vw;
+    line-height: 0.9;
+}
+
+.subhead {
+    color: #000;
+    display: block;
+    font-family: serif;
+}
