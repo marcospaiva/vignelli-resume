@@ -16,6 +16,6 @@ export default function handler(req, res) {
 
     const result = await scraper.run(endpoint)
 
-    res.json(result)
+    res.status(200).json(result)
     })()
 }
