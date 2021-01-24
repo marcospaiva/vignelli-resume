@@ -31,34 +31,4 @@ app.get('/user/:userId', function (req, res) {
 
 
 
-app.listen(process.env.PORT || 3001);
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Plain Javascript
-// const { LinkedInProfileScraper } = require('linkedin-profile-scraper');
-
-// (async() => {
-//   const scraper = new LinkedInProfileScraper({
-//     sessionCookieValue: 'AQEDAQNUJiMAUTz4AAABdy-VECwAAAF3U6GULE4AYkvABa-dUWhEp89fhW8GVb8GDpICEPbgz_XuS8PWlzhR_5GWuRULKqJW-zlYMlGVvehODd9DKZAHq-gv9s1eTKxPO_daiks_20PO232gXYrkY_j5',
-//     keepAlive: false
-//   });
-
-//   // Prepare the scraper
-//   // Loading it in memory
-//   await scraper.setup()
-
-//   const result = await scraper.run('https://www.linkedin.com/in/jvandenaardweg/')
-
-//   console.log(result)
-// })()
+app.listen(process.env.PORT || 3001)
