@@ -1,3 +1,17 @@
+.Header {
+    grid-area: Header;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.BottomRight {
+    grid-area: BottomRight;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 .head {
     font-size: 20vw;
     line-height: 0.9;
@@ -6,5 +20,33 @@
 .subhead {
     color: #000;
     display: block;
+    /* font-family: serif; */
+}
+
+.tagline {
     font-family: serif;
+    font-size: 2vw;
+}
+
+.headerHome {
+    min-height: 100vh;
+}
+
+.variateWeight {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.weightLight {
+    font-weight: 300;
+}
+
+.weightNormal {
+    font-weight: 500;
+}
+
+.weightBold {
+    font-weight: 800;
 }

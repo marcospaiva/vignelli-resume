@@ -1,0 +1,16 @@
+.Showcase {
+    background-color: #000;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.ShowcaseSlider {
+    margin: 50px 0!important;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* .ShowcaseSlide {
+
+} */
