@@ -10,7 +10,7 @@ export default function Header() {
                 <p className={style.tagline}>Generate your resume with graphic design inspired in Massimo Vignelli's work.</p>
             </div>
             <div className={style.BottomRight}>
-                <a href="#showcase" className={style.variateWeight}><span className={style.weightLight}>Connect.</span> <span className={style.weightNormal}>Create.</span> <span className={style.weightBold}>Impress</span></a>
+                <a href="#showcase" className={style.variateWeight}><span className={style.weightNormal}>Create.</span> <span className={style.weightBold}>Impress.</span></a>
             </div>
         </header>
     )
