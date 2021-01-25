@@ -15,16 +15,16 @@
 .head {
     font-size: 20vw;
     line-height: 0.9;
+    letter-spacing: -1.2vw;
 }
 
 .subhead {
     color: #000;
     display: block;
-    /* font-family: serif; */
 }
 
 .tagline {
-    font-family: serif;
+    font-family: Georgia, serif;
     font-size: 2vw;
 }
 
@@ -35,7 +35,7 @@
 .variateWeight {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 2vw;
     text-align: right;
 }
 
