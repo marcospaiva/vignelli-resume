@@ -8,8 +8,8 @@ export default function CTA() {
             <h2>Get started</h2>
             <form action="/" className={f.form}>
                 <div className={f.inputGroup}>
-                    <div className={f.inputPrefix}>https://linkedin.com/in/</div>
-                    <input type="text" name="linkedin_name" className={f.input}/>
+                    <label for="linkedin_name" className={f.inputPrefix}>https://linkedin.com/in/</label>
+                    <input type="text" id="linkedin_name" name="linkedin_name" className={f.input}/>
                 </div>
             </form>
         </section>
