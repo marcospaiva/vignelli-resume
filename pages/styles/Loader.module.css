@@ -1,0 +1,51 @@
+.loader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    z-index: 9999;
+}
+
+.spin {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 60px;
+}
+
+.spin::before,
+.spin::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: 4px solid #000;
+}
+
+.spin::before {
+}
+
+.spin::after {
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes loader {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
