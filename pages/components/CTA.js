@@ -2,16 +2,18 @@ import style from '../styles/CTA.module.css'
 import f from '../styles/Form.module.css'
 import Loader from '../components/Loader'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useRouter } from 'next/router'
 
 export default function CTA() {
     const router = useRouter();
     const [query, setQuery] = useState([]);
+    const [loading, setLoading] = useState(false);
 
     const handleSubmit = e => {
         e.preventDefault();
-        router.push(`/resume/${query}`)
+        router.push(`/resume/${query}`);
+        setLoading(true);
     }
     const handleParam = setValue => e => setValue(e.target.value)
 
@@ -26,7 +28,7 @@ export default function CTA() {
                 </div>
             </form>
         </section>
-        <Loader></Loader>
+        {loading && <Loader></Loader>}
         </>
     )
 }
