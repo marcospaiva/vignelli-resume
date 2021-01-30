@@ -1,5 +1,6 @@
 import style from '../styles/CTA.module.css'
 import f from '../styles/Form.module.css'
+import Loader from '../components/Loader'
 
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
@@ -15,6 +16,7 @@ export default function CTA() {
     const handleParam = setValue => e => setValue(e.target.value)
 
     return (
+        <>
         <section id="cta" className={style.Section}>
             <h2>Get started</h2>
             <form className={f.form} onSubmit={handleSubmit}>
@@ -24,5 +26,7 @@ export default function CTA() {
                 </div>
             </form>
         </section>
+        <Loader></Loader>
+        </>
     )
 }
