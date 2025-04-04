@@ -1,0 +1,167 @@
+{
+  "basics": {
+    "name": "Marcos Paiva",
+    "label": "Senior Software Engineer",
+    "image": "https://media.licdn.com/dms/image/profile.jpg",
+    "email": "marcos@paiva.dev",
+    "phone": "+55 11 99999-9999",
+    "url": "https://paiva.dev",
+    "summary": "Senior Software Engineer with over 10 years of experience in web development, focusing on frontend architecture, design systems, and user experience. Passionate about creating scalable and maintainable solutions that combine technical excellence with beautiful design.",
+    "location": {
+      "city": "São Paulo",
+      "region": "São Paulo",
+      "countryCode": "BR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "marcospaiva",
+        "url": "https://linkedin.com/in/marcospaiva"
+      },
+      {
+        "network": "GitHub",
+        "username": "marcospaiva",
+        "url": "https://github.com/marcospaiva"
+      },
+      {
+        "network": "Twitter",
+        "username": "omarcospaiva",
+        "url": "https://twitter.com/omarcospaiva"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Nuvemshop",
+      "position": "Senior Software Engineer",
+      "website": "https://nuvemshop.com.br",
+      "startDate": "2021-03",
+      "summary": "Leading frontend development initiatives and mentoring team members in best practices and modern web technologies.",
+      "highlights": [
+        "Architected and implemented core components of the company's design system",
+        "Reduced application bundle size by 40% through code optimization",
+        "Mentored junior developers and conducted technical interviews",
+        "Led the migration from legacy codebase to modern React architecture"
+      ]
+    },
+    {
+      "company": "Juntos Somos Mais",
+      "position": "Frontend Engineer",
+      "website": "https://juntossomosmais.com.br",
+      "startDate": "2019-01",
+      "endDate": "2021-02",
+      "summary": "Developed and maintained frontend applications for loyalty programs and e-commerce platforms.",
+      "highlights": [
+        "Implemented responsive web applications using React and TypeScript",
+        "Created reusable component library used across multiple projects",
+        "Improved application performance and SEO metrics"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidade Presbiteriana Mackenzie",
+      "area": "Design Digital",
+      "studyType": "Bachelor",
+      "startDate": "2010",
+      "endDate": "2014"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Expert",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "HTML5",
+        "CSS3",
+        "Sass"
+      ]
+    },
+    {
+      "name": "UI/UX Design",
+      "level": "Advanced",
+      "keywords": [
+        "Design Systems",
+        "Figma",
+        "User Experience",
+        "Responsive Design",
+        "Accessibility"
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "level": "Advanced",
+      "keywords": [
+        "Git",
+        "Webpack",
+        "Jest",
+        "Testing Library",
+        "CI/CD",
+        "Docker"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Design",
+      "keywords": [
+        "Typography",
+        "Grid Systems",
+        "Minimalism",
+        "Swiss Design"
+      ]
+    },
+    {
+      "name": "Open Source",
+      "keywords": [
+        "Contributing",
+        "Community",
+        "Knowledge Sharing"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Vignelli Resume",
+      "description": "A modern resume generator inspired by Massimo Vignelli's design principles",
+      "highlights": [
+        "Built with Next.js and TypeScript",
+        "Implements responsive grid system",
+        "Features clean typography and minimalist design"
+      ],
+      "keywords": [
+        "Next.js",
+        "TypeScript",
+        "Design Systems",
+        "Grid Layout"
+      ],
+      "startDate": "2024-01",
+      "url": "https://github.com/marcospaiva/vignelli-resume",
+      "type": "Personal Project"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}
