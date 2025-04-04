@@ -1,13 +1,18 @@
 {
   "name": "vignelli-resume",
   "version": "1.0.0",
-  "description": "",
+  "description": "A modern resume generator inspired by Massimo Vignelli's design principles",
   "main": "server.js",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "parse-pdf": "node scripts/pdf-to-json.js"
+    "parse-pdf": "ts-node scripts/pdf-to-json.ts",
+    "type-check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -20,13 +25,16 @@
   },
   "homepage": "https://github.com/marcospaiva/vignelli-resume#readme",
   "dependencies": {
-    "linkedin-profile-scraper": "^2.3.1",
     "next": "^15.2.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@types/react": "19.1.0",
-    "typescript": "5.8.2"
+    "@types/node": "20.11.25",
+    "@types/pdf-parse": "latest",
+    "@types/react": "18.2.64",
+    "@types/react-dom": "18.2.21",
+    "ts-node": "latest",
+    "typescript": "5.4.2"
   }
 }
