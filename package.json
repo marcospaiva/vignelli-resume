@@ -20,8 +20,8 @@
   "homepage": "https://github.com/marcospaiva/vignelli-resume#readme",
   "dependencies": {
     "linkedin-profile-scraper": "^2.3.1",
-    "next": "^10.0.5",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
