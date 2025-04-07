@@ -1,0 +1,46 @@
+:root {
+  /* Color System */
+  --color-primary-red: #DD1C1A;
+  --color-primary-black: #000000;
+  --color-primary-white: #FFFFFF;
+  --color-secondary-blue: #1C3AA9;
+  --color-secondary-yellow: #FFB800;
+  --color-neutral-100: #FFFFFF;
+  --color-neutral-200: #F5F5F5;
+  --color-neutral-300: #E5E5E5;
+  --color-neutral-400: #D4D4D4;
+  --color-neutral-500: #737373;
+  --color-neutral-600: #525252;
+  --color-neutral-700: #404040;
+  --color-neutral-800: #262626;
+  --color-neutral-900: #171717;
+
+  /* Grid System */
+  --grid-base: 8px;
+  --grid-margin-mobile: calc(var(--grid-base) * 2);
+  --grid-margin-tablet: calc(var(--grid-base) * 4);
+  --grid-margin-desktop: calc(var(--grid-base) * 8);
+  --grid-columns-mobile: 4;
+  --grid-columns-tablet: 8;
+  --grid-columns-desktop: 12;
+  --breakpoint-mobile: 320px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+  --breakpoint-wide: 1440px;
+
+  /* Typography Scale */
+  --type-scale-base: 16px;
+  --type-scale-sm: 14px;
+  --type-scale-lg: 24px;
+  --type-scale-xl: 32px;
+  --type-scale-2xl: 48px;
+  --type-scale-3xl: 64px;
+
+  /* Spacing System */
+  --space-1: var(--grid-base);
+  --space-2: calc(var(--grid-base) * 2);
+  --space-3: calc(var(--grid-base) * 3);
+  --space-4: calc(var(--grid-base) * 4);
+  --space-5: calc(var(--grid-base) * 6);
+  --space-6: calc(var(--grid-base) * 8);
+}
