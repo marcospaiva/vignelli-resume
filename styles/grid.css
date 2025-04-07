@@ -1,0 +1,88 @@
+/* Grid Container */
+.grid-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--grid-margin-mobile);
+  padding-right: var(--grid-margin-mobile);
+  max-width: var(--breakpoint-wide);
+}
+
+/* Grid Row */
+.grid-row {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns-mobile), 1fr);
+  gap: var(--grid-base);
+}
+
+/* Responsive Grid Adjustments */
+@media (min-width: 768px) {
+  .grid-container {
+    padding-left: var(--grid-margin-tablet);
+    padding-right: var(--grid-margin-tablet);
+  }
+
+  .grid-row {
+    grid-template-columns: repeat(var(--grid-columns-tablet), 1fr);
+    gap: calc(var(--grid-base) * 2);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-container {
+    padding-left: var(--grid-margin-desktop);
+    padding-right: var(--grid-margin-desktop);
+  }
+
+  .grid-row {
+    grid-template-columns: repeat(var(--grid-columns-desktop), 1fr);
+    gap: calc(var(--grid-base) * 3);
+  }
+}
+
+/* Grid Column Classes */
+.col-span-1 { grid-column: span 1; }
+.col-span-2 { grid-column: span 2; }
+.col-span-3 { grid-column: span 3; }
+.col-span-4 { grid-column: span 4; }
+
+@media (min-width: 768px) {
+  .col-md-span-1 { grid-column: span 1; }
+  .col-md-span-2 { grid-column: span 2; }
+  .col-md-span-3 { grid-column: span 3; }
+  .col-md-span-4 { grid-column: span 4; }
+  .col-md-span-5 { grid-column: span 5; }
+  .col-md-span-6 { grid-column: span 6; }
+  .col-md-span-7 { grid-column: span 7; }
+  .col-md-span-8 { grid-column: span 8; }
+}
+
+@media (min-width: 1024px) {
+  .col-lg-span-1 { grid-column: span 1; }
+  .col-lg-span-2 { grid-column: span 2; }
+  .col-lg-span-3 { grid-column: span 3; }
+  .col-lg-span-4 { grid-column: span 4; }
+  .col-lg-span-5 { grid-column: span 5; }
+  .col-lg-span-6 { grid-column: span 6; }
+  .col-lg-span-7 { grid-column: span 7; }
+  .col-lg-span-8 { grid-column: span 8; }
+  .col-lg-span-9 { grid-column: span 9; }
+  .col-lg-span-10 { grid-column: span 10; }
+  .col-lg-span-11 { grid-column: span 11; }
+  .col-lg-span-12 { grid-column: span 12; }
+}
+
+/* Utility Classes for Margins and Paddings based on the Grid System */
+.m-1 { margin: var(--space-1); }
+.m-2 { margin: var(--space-2); }
+.m-3 { margin: var(--space-3); }
+.m-4 { margin: var(--space-4); }
+.m-5 { margin: var(--space-5); }
+.m-6 { margin: var(--space-6); }
+
+.p-1 { padding: var(--space-1); }
+.p-2 { padding: var(--space-2); }
+.p-3 { padding: var(--space-3); }
+.p-4 { padding: var(--space-4); }
+.p-5 { padding: var(--space-5); }
+.p-6 { padding: var(--space-6); }

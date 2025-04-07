@@ -1,0 +1,58 @@
+:root {
+  /* Color System */
+  /* Primary Colors - Inspired by Vignelli's bold use of colors */
+  --color-primary-red: #DD1C1A;      /* Vignelli's signature red */
+  --color-primary-black: #000000;    /* Pure black for typography */
+  --color-primary-white: #FFFFFF;    /* Clean white for backgrounds */
+
+  /* Secondary Colors - Complementary to the primary palette */
+  --color-secondary-blue: #1C3AA9;   /* Deep blue for accents */
+  --color-secondary-yellow: #FFB800; /* Warm yellow for highlights */
+
+  /* Neutral Colors - For typography and subtle variations */
+  --color-neutral-100: #FFFFFF;
+  --color-neutral-200: #F5F5F5;
+  --color-neutral-300: #E5E5E5;
+  --color-neutral-400: #D4D4D4;
+  --color-neutral-500: #737373;
+  --color-neutral-600: #525252;
+  --color-neutral-700: #404040;
+  --color-neutral-800: #262626;
+  --color-neutral-900: #171717;
+
+  /* Grid System */
+  /* Base unit for consistent spacing and sizing */
+  --grid-base: 8px;
+
+  /* Margins and Gutters */
+  --grid-margin-mobile: calc(var(--grid-base) * 2);    /* 16px */
+  --grid-margin-tablet: calc(var(--grid-base) * 4);    /* 32px */
+  --grid-margin-desktop: calc(var(--grid-base) * 8);   /* 64px */
+
+  /* Column System */
+  --grid-columns-mobile: 4;
+  --grid-columns-tablet: 8;
+  --grid-columns-desktop: 12;
+
+  /* Breakpoints */
+  --breakpoint-mobile: 320px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+  --breakpoint-wide: 1440px;
+
+  /* Typography Scale - Based on 8px grid */
+  --type-scale-base: 16px;           /* 1rem */
+  --type-scale-sm: 14px;             /* 0.875rem */
+  --type-scale-lg: 24px;             /* 1.5rem */
+  --type-scale-xl: 32px;             /* 2rem */
+  --type-scale-2xl: 48px;            /* 3rem */
+  --type-scale-3xl: 64px;            /* 4rem */
+
+  /* Spacing System */
+  --space-1: var(--grid-base);           /* 8px */
+  --space-2: calc(var(--grid-base) * 2); /* 16px */
+  --space-3: calc(var(--grid-base) * 3); /* 24px */
+  --space-4: calc(var(--grid-base) * 4); /* 32px */
+  --space-5: calc(var(--grid-base) * 6); /* 48px */
+  --space-6: calc(var(--grid-base) * 8); /* 64px */
+}
